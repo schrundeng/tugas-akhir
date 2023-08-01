@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jadual</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: rgb(250, 235, 215)">
+    <div style="margin-top: 2%; text-align: center">
+      <table width="30%" border="1" cellspacing="0" cellpadding="5">
+        <tr>
+          <th><a href="data gw.html">Profil</a></th>
+          <th><a href="jadual.html">Jadwal</a></th>
+          <th><a href="form.html">Form</a></th>
+        </tr>
+      </table>
+    </div>
+
+    <br>  
+    <form action="data gw.html" method="get">
+      <div style="background-color: rgb(255, 220, 173); " class="formulir">
+        <ul>
+          <h3 style="margin: 2px;">Isilah formulir berikut:</h3>
+          <li>Nama: <input type="text" name="nama" required /></li>
+          <li>Alamat: <input type="text" name="alamat" required /></li>
+          <li>Kelahiran: <input type="date" name="kelahiran" required ></li>
+          <li>
+            Kelamin:
+            <select name="pilih satu saja" required>
+              <option value="cwk">cwk</option>
+              <option value="cwk">cwk</option>
+            </select>
+          </li>
+          <li>Pendidikan: <input type="text" name="sekolah" required /></li>
+          <li>
+            <input type="submit" name="register" value="Daftar" required />
+          </li>
+        </ul>
+      </div>
+    </form>
+  </body>
+</html>
